@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { AddCategory, GifGrid } from './components';
 import { MoonIcon, SunIcon } from '@heroicons/react/24/outline'
-import logo from './logo-2.png';
+import logo from './images/logo.png';
 
 export const GifExpertApp = () => {
 
@@ -17,7 +17,6 @@ export const GifExpertApp = () => {
     document.documentElement.classList.toggle('dark');
   }
 
-  //console.log(process.env.REACT_APP_API_KEY)
   return (
     <>
       <div className='p-4'>
